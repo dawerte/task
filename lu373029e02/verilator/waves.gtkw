@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Sat Mar 22 18:33:59 2025
+[*]
+[dumpfile] "/home/maciek/Desktop/intel/lu373029e02/verilator/dump.vcd"
+[dumpfile_mtime] "Sat Mar 22 18:32:32 2025"
+[dumpfile_size] 6184
+[savefile] "/home/maciek/Desktop/intel/lu373029e02/verilator/waves.gtkw"
+[timestart] 5250
+[size] 1465 598
+[pos] -1 -1
+*-11.978342 25000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.quadra_top.
+[sst_width] 278
+[signals_width] 248
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@28
+top.clk
+top.rst_b
+@22
+top.x[23:0]
+@28
+top.x_dv
+top.quadra_top.dv_p0
+top.quadra_top.dv_p1
+top.quadra_top.dv_p2
+@29
+top.quadra_top.x1[0]
+@22
+top.quadra_top.x2[16:0]
+top.quadra_top.quadra_inst.sq_out[33:0]
+top.quadra_top.quadra_inst.y_fxd[24:0]
+[pattern_trace] 1
+[pattern_trace] 0
