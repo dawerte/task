@@ -71,7 +71,7 @@ typedef ac_fixed< A_W,  A_I, true, rdz, AC_WRAP> a_fxd_t;
 
 // b:
 const int B_I =  2;  // <optimize>
-const int B_F = 9;  // <optimize>
+const int B_F = 11;  // <optimize>
 const int B_W = B_I + B_F;
 
 typedef ac_int  < B_W,       true>               b_int_t;

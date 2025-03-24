@@ -42,17 +42,17 @@ VL_ATTR_COLD void Vquadra_top___024root__trace_init_sub__TOP__0(Vquadra_top___02
     tracep->declBus(c+2,0,"x2",-1, VerilatedTraceSigDirection::INPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, -1,-17);
     tracep->declBus(c+20,0,"y_fxd",-1, VerilatedTraceSigDirection::OUTPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, 24,0);
     tracep->declQuad(c+3,0,"sq_out",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, -1,-34);
-    tracep->declBus(c+5,0,"t1",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 1,-26);
+    tracep->declBus(c+5,0,"t1",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 1,-28);
     tracep->declQuad(c+6,0,"t2",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 1,-34);
     tracep->declBus(c+8,0,"t0",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 1,-23);
     tracep->declBus(c+9,0,"a",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 1,-12);
-    tracep->declBus(c+10,0,"b",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 1,-9);
+    tracep->declBus(c+10,0,"b",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 1,-11);
     tracep->declBus(c+11,0,"c",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 1,-10);
     tracep->declBus(c+12,0,"y_sum",-1, VerilatedTraceSigDirection::NONE, VerilatedTraceSigKind::VAR, VerilatedTraceSigType::LOGIC, false,-1, 2,-23);
     tracep->pushPrefix("lut_coeff", VerilatedTracePrefixType::SCOPE_MODULE);
     tracep->declBus(c+1,0,"x1",-1, VerilatedTraceSigDirection::INPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, 6,0);
     tracep->declBus(c+9,0,"a",-1, VerilatedTraceSigDirection::OUTPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, 1,-12);
-    tracep->declBus(c+10,0,"b",-1, VerilatedTraceSigDirection::OUTPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, 1,-9);
+    tracep->declBus(c+10,0,"b",-1, VerilatedTraceSigDirection::OUTPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, 1,-11);
     tracep->declBus(c+11,0,"c",-1, VerilatedTraceSigDirection::OUTPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, 1,-10);
     tracep->popPrefix();
     tracep->pushPrefix("s1", VerilatedTracePrefixType::SCOPE_MODULE);
@@ -164,11 +164,11 @@ VL_ATTR_COLD void Vquadra_top___024root__trace_const_0_sub_0(Vquadra_top___024ro
     bufp->fullIData(oldp+32,(0x22U),32);
     bufp->fullIData(oldp+33,(0xcU),32);
     bufp->fullIData(oldp+34,(0xeU),32);
-    bufp->fullIData(oldp+35,(9U),32);
-    bufp->fullIData(oldp+36,(0xbU),32);
+    bufp->fullIData(oldp+35,(0xbU),32);
+    bufp->fullIData(oldp+36,(0xdU),32);
     bufp->fullIData(oldp+37,(0xaU),32);
-    bufp->fullIData(oldp+38,(0x1aU),32);
-    bufp->fullIData(oldp+39,(0x1cU),32);
+    bufp->fullIData(oldp+38,(0x1cU),32);
+    bufp->fullIData(oldp+39,(0x1eU),32);
     bufp->fullIData(oldp+40,(0x24U),32);
 }
 
@@ -194,11 +194,11 @@ VL_ATTR_COLD void Vquadra_top___024root__trace_full_0_sub_0(Vquadra_top___024roo
     bufp->fullIData(oldp+2,(vlSelf->quadra_top__DOT__x2),17);
     bufp->fullQData(oldp+3,((0x3ffffffffULL & ((QData)((IData)(vlSelf->quadra_top__DOT__x2)) 
                                                * (QData)((IData)(vlSelf->quadra_top__DOT__x2))))),34);
-    bufp->fullIData(oldp+5,(vlSelf->quadra_top__DOT__quadra_inst__DOT__t1),28);
+    bufp->fullIData(oldp+5,(vlSelf->quadra_top__DOT__quadra_inst__DOT__t1),30);
     bufp->fullQData(oldp+6,(vlSelf->quadra_top__DOT__quadra_inst__DOT__t2),36);
     bufp->fullIData(oldp+8,(vlSelf->quadra_top__DOT__quadra_inst__DOT__t0),25);
     bufp->fullSData(oldp+9,(vlSelf->quadra_top__DOT__quadra_inst__DOT__a),14);
-    bufp->fullSData(oldp+10,(vlSelf->quadra_top__DOT__quadra_inst__DOT__b),11);
+    bufp->fullSData(oldp+10,(vlSelf->quadra_top__DOT__quadra_inst__DOT__b),13);
     bufp->fullSData(oldp+11,(vlSelf->quadra_top__DOT__quadra_inst__DOT__c),12);
     bufp->fullIData(oldp+12,(vlSelf->quadra_top__DOT__quadra_inst__DOT__y_sum),26);
     bufp->fullBit(oldp+13,(vlSelf->quadra_top__DOT__dv_p0));

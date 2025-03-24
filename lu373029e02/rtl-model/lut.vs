@@ -15,7 +15,7 @@ module lut
     // Read coefficients:
     always_comb
     unique casez (x1)
-        7'b0000000 :  a = 'h074afb0d;           
+        7'b0000000 :  a = 'h000034b0;           
         7'b0000001 :  a = 'h0750b998;
         7'b0000010 :  a = 'h0756a3f4;
         7'b0000011 :  a = 'h075cb8a7;
@@ -275,7 +275,7 @@ module lut
         7'b1111100 :  b = 'h00003006;
         7'b1111101 :  b = 'h00003001;
         7'b1111110 :  b = 'h00003000;
-        7'b1111111 :  b = 'h00000401;
+        7'b1111111 :  b = 'h00001004;
         default    :  b = 'x;
     endcase
 

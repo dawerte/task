@@ -28,11 +28,11 @@ void Vquadra_top___024root__trace_chg_0_sub_0(Vquadra_top___024root* vlSelf, Ver
         bufp->chgIData(oldp+1,(vlSelf->quadra_top__DOT__x2),17);
         bufp->chgQData(oldp+2,((0x3ffffffffULL & ((QData)((IData)(vlSelf->quadra_top__DOT__x2)) 
                                                   * (QData)((IData)(vlSelf->quadra_top__DOT__x2))))),34);
-        bufp->chgIData(oldp+4,(vlSelf->quadra_top__DOT__quadra_inst__DOT__t1),28);
+        bufp->chgIData(oldp+4,(vlSelf->quadra_top__DOT__quadra_inst__DOT__t1),30);
         bufp->chgQData(oldp+5,(vlSelf->quadra_top__DOT__quadra_inst__DOT__t2),36);
         bufp->chgIData(oldp+7,(vlSelf->quadra_top__DOT__quadra_inst__DOT__t0),25);
         bufp->chgSData(oldp+8,(vlSelf->quadra_top__DOT__quadra_inst__DOT__a),14);
-        bufp->chgSData(oldp+9,(vlSelf->quadra_top__DOT__quadra_inst__DOT__b),11);
+        bufp->chgSData(oldp+9,(vlSelf->quadra_top__DOT__quadra_inst__DOT__b),13);
         bufp->chgSData(oldp+10,(vlSelf->quadra_top__DOT__quadra_inst__DOT__c),12);
         bufp->chgIData(oldp+11,(vlSelf->quadra_top__DOT__quadra_inst__DOT__y_sum),26);
     }

@@ -11,8 +11,8 @@ void Vquadra_top___024root___eval_act(Vquadra_top___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vquadra_top___024root___eval_act\n"); );
 }
 
-extern const VlUnpacked<SData/*13:0*/, 128> Vquadra_top__ConstPool__TABLE_h8362d58a_0;
-extern const VlUnpacked<SData/*10:0*/, 128> Vquadra_top__ConstPool__TABLE_h6acc458c_0;
+extern const VlUnpacked<SData/*13:0*/, 128> Vquadra_top__ConstPool__TABLE_h85676e04_0;
+extern const VlUnpacked<SData/*12:0*/, 128> Vquadra_top__ConstPool__TABLE_hcf8a9078_0;
 extern const VlUnpacked<SData/*11:0*/, 128> Vquadra_top__ConstPool__TABLE_hd79e3f37_0;
 
 VL_INLINE_OPT void Vquadra_top___024root___nba_sequent__TOP__0(Vquadra_top___024root* vlSelf) {
@@ -31,16 +31,16 @@ VL_INLINE_OPT void Vquadra_top___024root___nba_sequent__TOP__0(Vquadra_top___024
                                             >> 0x11U));
     vlSelf->quadra_top__DOT__quadra_inst__DOT__y_sum 
         = (0x3ffffffU & ((vlSelf->quadra_top__DOT__quadra_inst__DOT__t0 
-                          + (0x7fffffU & (vlSelf->quadra_top__DOT__quadra_inst__DOT__t1 
-                                          >> 5U))) 
-                         + (0x7fffffU & (IData)((vlSelf->quadra_top__DOT__quadra_inst__DOT__t2 
-                                                 >> 0xdU)))));
+                          + (0x1ffffffU & (vlSelf->quadra_top__DOT__quadra_inst__DOT__t1 
+                                           >> 5U))) 
+                         + (0x1ffffffU & (IData)((vlSelf->quadra_top__DOT__quadra_inst__DOT__t2 
+                                                  >> 0xbU)))));
     vlSelf->y = (0x1ffffffU & vlSelf->quadra_top__DOT__quadra_inst__DOT__y_sum);
     vlSelf->quadra_top__DOT__quadra_inst__DOT__t0 = 
         (0x1ffffffU & VL_EXTENDS_II(25,14, (IData)(vlSelf->quadra_top__DOT__quadra_inst__DOT__a)));
     vlSelf->quadra_top__DOT__quadra_inst__DOT__t1 = 
-        (0xfffffffU & ((IData)(vlSelf->quadra_top__DOT__quadra_inst__DOT__b) 
-                       * vlSelf->quadra_top__DOT__x2));
+        (0x3fffffffU & ((IData)(vlSelf->quadra_top__DOT__quadra_inst__DOT__b) 
+                        * vlSelf->quadra_top__DOT__x2));
     vlSelf->quadra_top__DOT__quadra_inst__DOT__t2 = 
         (0xfffffffffULL & ((QData)((IData)(vlSelf->quadra_top__DOT__quadra_inst__DOT__c)) 
                            * (QData)((IData)((0xffffffU 
@@ -51,10 +51,10 @@ VL_INLINE_OPT void Vquadra_top___024root___nba_sequent__TOP__0(Vquadra_top___024
                                                             >> 0xaU))))))));
     __Vtableidx1 = vlSelf->quadra_top__DOT__x1;
     vlSelf->quadra_top__DOT__quadra_inst__DOT__a = 
-        Vquadra_top__ConstPool__TABLE_h8362d58a_0[__Vtableidx1];
+        Vquadra_top__ConstPool__TABLE_h85676e04_0[__Vtableidx1];
     __Vtableidx2 = vlSelf->quadra_top__DOT__x1;
     vlSelf->quadra_top__DOT__quadra_inst__DOT__b = 
-        Vquadra_top__ConstPool__TABLE_h6acc458c_0[__Vtableidx2];
+        Vquadra_top__ConstPool__TABLE_hcf8a9078_0[__Vtableidx2];
     __Vtableidx3 = vlSelf->quadra_top__DOT__x1;
     vlSelf->quadra_top__DOT__quadra_inst__DOT__c = 
         Vquadra_top__ConstPool__TABLE_hd79e3f37_0[__Vtableidx3];

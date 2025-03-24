@@ -61,7 +61,7 @@ typedef logic signed [A_I-1:-A_F] a_t;
 
 // b
 localparam int  B_I = 2;
-localparam int  B_F = 9;
+localparam int  B_F = 11;
 localparam int  B_W = B_I + B_F;
 
 typedef logic signed [B_I-1:-B_F] b_t;

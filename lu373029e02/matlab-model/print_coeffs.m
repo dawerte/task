@@ -18,7 +18,7 @@ A_W = A_I + A_F; # (s4.28)
 
 # coeff b:
 B_I =  2;
-B_F = 9;
+B_F = 11;
 B_W = B_I + B_F; # (s4.28)
 
 # coeff c:
