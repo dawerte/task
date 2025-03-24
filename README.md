@@ -16,10 +16,12 @@ After reading and studying the the article I modified the length of coefficients
 
 <s>a - 3 integer bits, 24 fractional bits</s>
 <s>b - 3 integer bits, 11 fractional bits</s>
-c - 3 integer bits, 10 fractional bits</s>
+<s>c - 3 integer bits, 10 fractional bits</s>
 
 a - 2 integer bits, 12 fractional bits
+
 b - 2 integer bits, 11 fractional bits
+
 c - 2 integer bits, 10 fractional bits
 
 <s>This gave me an error around 5.7e-06 which meets the expectations (error < 5.25e-06) </s>
