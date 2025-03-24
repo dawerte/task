@@ -62,23 +62,23 @@ typedef ac_fixed<X2_W, X2_J, false, trn, AC_WRAP> x2_fxd_t; // u0.17
 
 // Coefficients:
 // a:
-const int A_I =  3;  // <optimize> 
-const int A_F = 24;  // <optimize> 
+const int A_I =  2;  // <optimize> 
+const int A_F = 12;  // <optimize> 
 const int A_W = A_I + A_F;
 
 typedef ac_int  < A_W,       true>               a_int_t;
 typedef ac_fixed< A_W,  A_I, true, rdz, AC_WRAP> a_fxd_t;
 
 // b:
-const int B_I =  3;  // <optimize>
-const int B_F = 11;  // <optimize>
+const int B_I =  2;  // <optimize>
+const int B_F = 9;  // <optimize>
 const int B_W = B_I + B_F;
 
 typedef ac_int  < B_W,       true>               b_int_t;
 typedef ac_fixed< B_W,  B_I, true, rdz, AC_WRAP> b_fxd_t;
 
 // c:
-const int C_I =  3;  // <optimize>
+const int C_I =  2;  // <optimize>
 const int C_F = 10;  // <optimize>
 const int C_W = C_I + C_F;
 

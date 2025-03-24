@@ -52,30 +52,30 @@ localparam int  X2X2_W = X2X2_I + X2X2_F;
 
 typedef logic [X2X2_I-1:-X2X2_W] sq_t;
 
-// a[31:0]
-localparam int  A_I = 3;
-localparam int  A_F = 24;
+// a
+localparam int  A_I = 2;
+localparam int  A_F = 12;
 localparam int  A_W = A_I + A_F;
 
 typedef logic signed [A_I-1:-A_F] a_t;
 
-// b[31:0]
-localparam int  B_I = 3;
-localparam int  B_F = 11;
+// b
+localparam int  B_I = 2;
+localparam int  B_F = 9;
 localparam int  B_W = B_I + B_F;
 
 typedef logic signed [B_I-1:-B_F] b_t;
 
-// c[31:0]
-localparam int  C_I = 3;
+// c
+localparam int  C_I = 2;
 localparam int  C_F = 10;
 localparam int  C_W = C_I + C_F;
 
 typedef logic signed [C_I-1:-C_F] c_t;
 
 // t0 = a;
-localparam int  T0_I = A_I;
-localparam int  T0_F = A_F;
+localparam int  T0_I = 2;
+localparam int  T0_F = 23;
 localparam int  T0_W = T0_I + T0_F;
 
 typedef logic signed [T0_I-1:-T0_F] t0_t;
@@ -94,7 +94,7 @@ localparam int  T2_W = T2_I + T2_F;
 
 typedef logic signed [T2_I-1:-T2_F] t2_t;
 
-// y_sum = t0 + t1 + t3 [31:0]
+// y_sum = t0 + t1 + t3 
 
 localparam int  Y_SUM_I = T0_I;
 localparam int  Y_SUM_F = T0_F;

@@ -12,17 +12,17 @@ c = coeffs(:,4);
 K = length(k);
 
 # coeff a:
-A_I =  3;
-A_F = 24;
+A_I =  2;
+A_F = 12;
 A_W = A_I + A_F; # (s4.28)
 
 # coeff b:
-B_I =  3;
-B_F = 11;
+B_I =  2;
+B_F = 9;
 B_W = B_I + B_F; # (s4.28)
 
 # coeff c:
-C_I =  3;
+C_I =  2;
 C_F = 10;
 C_W = C_I + C_F; # (s4.28)
 

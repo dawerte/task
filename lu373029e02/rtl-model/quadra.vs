@@ -39,10 +39,10 @@ square s1 (
 always_ff @(posedge clk) begin
         t0 <= a;
         t1 <= b * x2; 
-        t2 <= c * sq_out[-1:-23];    
-        y_sum <= t0 + t1[2:-25] + t2[2:-25];
+        t2 <= c * sq_out[-1:-24];    
+        y_sum <= t0 + t1[1:-23] + t2[1:-23];
 end
 
-    assign y_fxd = y_sum[3:-24];
+    assign y_fxd = y_sum;
     // <challenge>    
 endmodule
